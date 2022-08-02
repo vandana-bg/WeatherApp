@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B7CC9</color>
+    <color name="colorPrimaryDark">#176EB3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGrey">#D9D6CF</color>
+    <color name="bg_color">#E2E3DE</color>
+    <color name="home_bg_color">#F2F1EF</color>
+    <color name="colorBlack">#000</color>
+    <color name="splash_bg">#05234B</color>
+    <color name="home_light_grey">#DFDED9</color>
+
+    <color name="blue">#FF005a9c</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="white">#ffffff</color>
+    <color name="colorOrange">#F3AA4E</color>
+    <color name="header_color">#626248</color>
+
+</resources>

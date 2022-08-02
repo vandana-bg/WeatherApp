@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutorial.weatherapp">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/weather_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/weather_icon"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:name=".MyApp"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".view.activity.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.main.MainActivity" />
+        <activity android:name=".view.activity.addloaction.AddLocationActivity"
+            android:screenOrientation="portrait"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="45fbb6960a895232f759d67a146b98b406cea5f2" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_id"/>
+    </application>
+
+</manifest>
